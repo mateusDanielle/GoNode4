@@ -7,3 +7,15 @@ adonis new {nomeProjeto} --api-only --yarn
 //Rodando o servidor
 Já dentro da pasta do projeto ...
 adonis serve --dev
+
+//Configurando ESLint
+yarn add eslint -D
+yarn eslint --init
+Use a popular ... -> Standard -> JSON -> Y
+
+//Liberando uso do use
+.eslintrc.json ...
+    "globals": {
+      "use": true
+    }
+
