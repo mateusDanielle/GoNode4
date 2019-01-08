@@ -1,0 +1,9 @@
+//Ver opções de inicializar o projeto
+adonis new -h
+
+//Inicializando
+adonis new {nomeProjeto} --api-only --yarn
+
+//Rodando o servidor
+Já dentro da pasta do projeto ...
+adonis serve --dev
