@@ -23,3 +23,13 @@ Use a popular ... -> Standard -> JSON -> Y
 Ver bancos disponiveis no config/database.json
 terminal -> npm i --save pg
 alterar .env
+//Para testar
+adonis migration:run
+
+//Criando controllers
+adonis make:controller User
+Http -> get, post, put, delete ...
+Websocket -> Tempo real
+
+//Lista de rotas
+adonis route:list
