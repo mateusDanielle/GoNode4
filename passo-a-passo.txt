@@ -42,3 +42,6 @@ adonis install @adonisjs/mail
 //Adicionar provider
 start/app.js -> providers
 Configurar arquvio config/mail.js
+
+//Trabalhar com datas
+yarn add moment
