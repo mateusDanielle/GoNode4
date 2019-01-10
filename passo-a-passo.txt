@@ -45,3 +45,8 @@ Configurar arquvio config/mail.js
 
 //Trabalhar com datas
 yarn add moment
+
+//Criando um model
+adonis make:model File -m -c
+//-m -> cria a migration
+//-c -> cria o controller
