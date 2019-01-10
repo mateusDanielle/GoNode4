@@ -33,3 +33,12 @@ Websocket -> Tempo real
 
 //Lista de rotas
 adonis route:list
+
+//Crypto
+Para criptografar senhas e tokens
+
+//Envio de email
+adonis install @adonisjs/mail
+//Adicionar provider
+start/app.js -> providers
+Configurar arquvio config/mail.js
