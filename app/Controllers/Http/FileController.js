@@ -4,6 +4,11 @@ const File = use('App/Models/File')
 const Helpers = use('Helpers')
 
 class FileController {
+  async show ({ params: { id }, response }) {
+    const file = await File.findOrFail(id)
+
+    return response.download(Helpers.tmpPath(`uploads/${file.file}`))
+  }
   async store ({ request, response }) {
     try {
       if (!request.file('file')) return
